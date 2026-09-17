@@ -1,6 +1,4 @@
-# TCP-Socket
-
-### TCP-based Messenger by Socket Programming
+## TCP-based Messenger with Socket Programming
 
 <br>
 
