@@ -1,2 +1,14 @@
-﻿# Project exclude paths
-/venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+
+# Partial downloads
+*.part
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store

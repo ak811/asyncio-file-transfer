@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "async-file-transfer"
+version = "1.0.0"
+description = "Concurrent, integrity-checked file transfer over TCP with asyncio"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+filetransfer = "filetransfer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
