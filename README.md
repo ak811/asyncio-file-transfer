@@ -1,4 +1,4 @@
-# asynco-file-transfer
+## Concurrent asyncio file transfer over TCP: resumable downloads, SHA-256 checks, atomic uploads
 
 Concurrent, integrity-checked file transfer over TCP in Python: an `asyncio` server and client with resumable downloads, atomic uploads, end-to-end SHA-256 verification, and a path sandbox.
 
