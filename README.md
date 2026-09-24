@@ -254,12 +254,6 @@ Upload resumption, directory transfers, and authentication are not implemented.
 
 ---
 
-## Project History
-
-This repository began as a basic socket programming exercise that sent a single file per connection. It was rewritten to fix defects in that version, including truncation of any file larger than 1 KiB, a directory traversal vulnerability, a server crash on empty requests, files silently not being saved, and no support for concurrent clients, and to add resumable, verified, concurrent transfers.
-
----
-
 ## License
 
 MIT. See [LICENSE](LICENSE).
